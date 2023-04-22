@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Yoshita">
+    <meta name="description" content="Yoshita's Responsive Portfolio Website">
+    <title>Yoshita Arora</title>
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+   >
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/Yoshita-Final/css/style.css">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- navigation -->
+      
+      <header> 
+      <nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="/Yoshita-Final/assets/Logo1.png" id="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#home" id="tab">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about" id="tab">About</a>
+        </li>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#portfolio" role="button" data-bs-toggle="dropdown" aria-expanded="false" id="tab">
+            Portfolio
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="editorial.html">Editorial Magazine</a></li>
+            <li><a class="dropdown-item" href="resturantmenu.html">Resturant Menu</a></li>
+            <li><a class="dropdown-item" href="insoles.html">Process Book</a></li>
+            <li><a class="dropdown-item" href="teabox.html">Tea Box Design</a></li>
+            <li><a class="dropdown-item" href="websiteinterface.html">Website User Interface</a></li>
+            <li><a class="dropdown-item" href="musicalbum.html">Music Album</a></li>
+          </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="tab">Contact</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+      </header>
+    <!-- home banner -->
+    <section class="home-banner" id="home">
+        <img src="assets/Illustration.png" alt="" id="home-banner-image">
+
+      <div class="home-banner-text">
+        <h4>hello,I'm</h4>
+              <h1>Yoshita Arora</h1>
+              <p>Graphic Designer & <br> Digital Media Manager</p>
+              <a href="#contact" class="btn">Let's Connect</a> 
+          </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="section mt-3" id="about">
+      <h1 class="h1">About</h1>
+      <div class="container mt-5">
+          <div class="row text-center text-md-left">
+              <div class="col-md-3">
+                  <img src="/Yoshita-Final/assets/profile.JPG" alt="" class="rounded float-left mb-4" id="about-image">
+              </div>
+              <div class="pl-md-4 col-md-9">
+                <div class="about-text">
+                <h4>“Half geek &shy; Half design &shy; brings your ideas to life!” <br>
+                  - Yoshita </h4>
+                  <p>I am Yoshita. <br>
+                      I am a graphic designer who combines classical and mordern design principles. I like playing with shapes, lines, colors and typography. In my opionion, a good design should be balanced, minimal but having an intense meaning. I focus on solutions exemplifying simplicity. I have been helping clients for over three years by creatin meorable identity and branding solutions. <br> 
+                      Nature and patterns inspires me the most. My forte is giving exceptional attention to details. <br>
+                      I like to create illustrations and do photography.</p>
+                    </div>                
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Projects -->
+
+<section id="portfolio" class="section mt-3" id="portfolio">
+  <h1 class="h1">Portfolio</h1> 
+  <!-- First Row -->   
+      <div class="project-container">
+        <div class="column">
+          <img src="assets/PortfolioIcons/EditorialColour.svg" alt="">
+          <a href="editorial.html"><p>Editorial Design</p></a>
+        </div>
+        <div class="column">
+          <img src="assets/PortfolioIcons/Webcolor.svg" alt="">
+          <a href="websiteinterface.html"><p>Website User Interface</p></a>
+        </div>
+        <div class="column">
+          <img src="assets/PortfolioIcons/IndependentStudyColour.svg" alt="">
+          <a href="insoles.html"><p>Process Book-Smart Insoles</p></a>
+        </div>
+      </div>
+
+      <!-- Second Row -->
+      <div class="project-container">
+        <div class="column">
+          <img src="assets/PortfolioIcons/Resturantcolor.svg" alt="">
+          <a href="resturantmenu.html"><p>Resturant Menu</p></a>
+        </div>
+        <div class="column">
+          <img src="assets/PortfolioIcons/MusicAlbumColour.svg" alt="">
+          <a href="musicalbum.html"><p>Music Album</p></a>
+        </div>
+        <div class="column">
+          <img src="assets/PortfolioIcons/TeaColour.svg" alt="">
+          <a href="teabox.html"><p>Tea Box-Package Design</p></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="contact" id="contact">
+      <h1>Contact</h1>
+      <div>
+        <p>yoshitarora05@gmail.com</p>
+        <p>www.yoshitarora.com</p>
+        <p>+1 647 891 5673</p>
+      </div>
+    </section>
+
+    <div class="social-media">
+      <img src="assets/SocialMediaIcons/Behance.svg" alt="Behance logo" width="50">
+      <img src="assets/SocialMediaIcons/Dribble.svg" alt="Dribble logo" width="50">
+      <img src="assets/SocialMediaIcons/Facebook.svg" alt="Facebook logo" width="50">
+      <img src="assets/SocialMediaIcons/Instagram.svg" alt="Instagram logo" width="50">
+      <img src="assets/SocialMediaIcons/Pinterest.svg" alt="Pinterest logo" width="50">
+      <img src="assets/SocialMediaIcons/Whatsapp.svg" alt="Whatsapp logo" width="50">
+      <img src="assets/SocialMediaIcons/Youtube.svg" alt="YouTube logo" width="50">
+      <img src="assets/SocialMediaIcons/LinkedIn.svg" alt="LinkedIn Logo" width="50">
+      <img src="assets/SocialMediaIcons/Twitter.svg" alt="Twitter Logo" width="50">
+    </div>
+
+    <button class="up-arrow"><img src="assets/arrow.png" alt=""></button>
+
+    <!-- Footer taken from bootstrap docs: https://getbootstrap.com/docs/5.3/examples/footers/ -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3"></ul>
+      <p class="text-center text-body-secondary">
+        Copyright <span id="year"></span> &copy;
+        <a href="http://www.yoshitarora.com" target="_blank">Yoshitarora</a>
+      </p>
+    </footer>
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
