@@ -1,0 +1,193 @@
+
+#logo {
+  width: 250px;
+}
+
+#tab {
+  text-transform: uppercase;
+  color: #02004f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#tab:hover {
+  color: #ff002b;
+}
+
+.dropdown-menu {
+  text-transform: uppercase;
+  color: #02004f;
+  font-weight: bold;
+}
+
+.dropdown-menu:active {
+  color: #ff002b;
+}
+/* Intro container */
+.home-banner {
+  display: flex;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+
+#home-banner-image {
+  width: 400px;
+  padding-left: 200px;
+  text-align: center;
+}
+
+.home-banner-text {
+  padding-left: 100px;
+  color: #02004f;
+}
+
+h4,h1 {
+  color: #02004f;
+  font-weight: bold;
+} 
+
+p {
+  color: #02004f;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #02004f;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #ff002b;
+  color: #02004f;
+}
+
+/* headings */
+.h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ff9600;
+  font-weight: bolder;
+  text-align: center;
+}
+/* About section */
+
+.about-text {
+  text-align: left;
+}
+
+#about-image {
+  width: 200px;
+  height: auto;
+}
+
+/* Projects */
+
+.projects {
+  margin: 40px 0 0 0;
+}
+
+.project-container {
+  display: flex;
+  margin: 0 0 10px 0;
+  padding-left: 25%;
+}
+
+.project-container .column {
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.project-container .column img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 50px;
+}
+
+.project-container img {
+  padding: 60px 0 0 0;
+}
+
+/* child containers */
+.project-container .column:first-child {
+  background-color: #ccccdc;
+}
+
+.project-container .column:nth-child(2) {
+  background-color: #ffccd4;
+}
+
+.project-container .column:nth-child(3) {
+  background-color: #ffeacc;
+}
+
+/* Contact */
+
+.contact h1 {
+  text-align: center;
+  color: #ff9700;
+  padding: 0 0 15px 0;
+}
+
+.contact p {
+  text-align: center;
+  line-height: 0.4;
+  font-weight: bold;
+}
+
+/* Social media icons */
+.social-media {
+  text-align: center;
+}
+
+/* Media Query */
+
+/* 1 column on mobile device */
+@media only screen and (max-width: 767px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 1;
+    margin: 10px 0;
+  }
+
+  .intro-container {
+    flex-direction: column;
+  }
+}
+
+/* Scroll to top arrow btn */
+.up-arrow {
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  z-index: 2;
+  cursor: pointer;
+}
+
+/* Carousel Section */
+
+.carousel-title {
+  padding: 20px 0 20px 0;
+  color: #ff9600;
+  font-weight: bolder;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .project-container {
+    flex-direction: column;
+  }
+
+  .column {
+    flex: 1 0.5 45%;
+  }
+}
+
+.portfolio-content {
+  padding: 50px 35px;
+}
